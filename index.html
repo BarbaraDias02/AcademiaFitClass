@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FIT CLASS - Academia</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand text-warning fw-bold" href="#">FIT CLASS</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#planos">Planos</a></li>
+            <li class="nav-item"><a class="nav-link" href="#treinos">Treinos</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Mais</a>
+              <ul class="dropdown-menu dropdown-menu-dark">
+                <li><a class="dropdown-item" href="#">Equipe</a></li>
+                <li><a class="dropdown-item" href="#">Depoimentos</a></li>
+                <li><a class="dropdown-item" href="#">Contato</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <header class="bg-dark text-white text-center p-5 hero-section">
+      <h1 class="display-4 fw-bold text-warning">FIT CLASS</h1>
+      <p class="lead">Transforme seu corpo e sua vida hoje mesmo!</p>
+      <a href="#cadastro" class="btn btn-warning btn-lg mt-3">Matricule-se</a>
+    </header>
+
+    <!-- CAROUSEL -->
+    <div id="carouselAcademia" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="academia.jpg" class="d-block w-100" alt="Academia 1">
+        </div>
+        <div class="carousel-item">
+          <img src="academia2.jpg" class="d-block w-100" alt="Academia 2">
+        </div>
+        <div class="carousel-item">
+          <img src="academia3.jpg" class="d-block w-100" alt="Academia 3">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselAcademia" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselAcademia" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+
+    <!-- GRID DE SERVIÇOS -->
+    <section class="container text-center my-5" id="planos">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card bg-dark text-white border-warning h-100">
+            <div class="card-body">
+              <h5 class="card-title text-warning">Mensalidade</h5>
+              <p class="card-text">Planos acessíveis a partir de R$ 90/mês.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card bg-dark text-white border-warning h-100">
+            <div class="card-body">
+              <h5 class="card-title text-warning">Horários</h5>
+              <p class="card-text">Aberto das 6h às 22h t(seg a sex).</p>
+            </div>
+          </div>
+        </div>
+        <div class="col" id="treinos">
+          <div class="card bg-dark text-white border-warning h-100">
+            <div class="card-body">
+              <h5 class="card-title text-warning">Treinos</h5>
+              <p class="card-text">Musculação, Crossfit, Funcional e muito mais!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- AÇÕES -->
+    <section class="container text-center my-5" id="cadastro">
+      <div class="row">
+        <div class="col-md-4">
+          <h5 class="text-warning">Faça seu cadastro</h5>
+          <button type="button" class="btn btn-outline-warning">Cadastrar</button>
+        </div>
+        <div class="col-md-4">
+          <h5 class="text-warning">Peça seu treino</h5>
+          <button type="button" class="btn btn-warning">Solicitar</button>
+        </div>
+        <div class="col-md-4">
+          <h5 class="text-warning">Pesquisa de satisfação</h5>
+          <button type="button" class="btn btn-outline-light">Responder</button>
+        </div>
+      </div>
+
+      <div class="btn-group mt-4" role="group">
+        <button type="button" class="btn btn-warning">Plano Mensal</button>
+        <button type="button" class="btn btn-outline-warning">Plano Anual</button>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-dark text-center text-white p-3 mt-5">
+      <p class="mb-0"> 2025 FIT CLASS - Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

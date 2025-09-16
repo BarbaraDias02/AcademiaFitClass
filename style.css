@@ -1,0 +1,11 @@
+.hero-section {
+  background: url("academia4.jpg") no-repeat center/cover;
+  width: auto;
+  height: 500px;
+}
+.card {
+  transition: transform 0.3s ease;
+}
+.card:hover {
+  transform: scale(1.05);
+}
